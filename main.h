@@ -20,8 +20,11 @@ typedef struct type
 } type_t;
 
 int _putchar(char c);
+int print_number(unsigned int num);
+int count_numbers(unsigned int num)
 int print_char(va_list list);
 int print_string(va_list list);
+int print_digit(va_list list);
 
 int (*get_function(const char *specifier))(va_list);
 
