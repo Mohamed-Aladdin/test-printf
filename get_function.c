@@ -14,9 +14,9 @@ int (*get_function(const char *specifier))(va_list)
 	type_t ops[] = {
 		{"s", print_string},
 		{"c", print_char},
-		/* {"d", print_int},
-		{"i", print_int},
-		{"b", print_b},
+		{"d", print_digit},
+		{"i", print_digit},
+		/* {"b", print_b},
 		{"o", print_o},
 		{"u", print_u},
 		{"x", print_x},

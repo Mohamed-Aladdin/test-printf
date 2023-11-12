@@ -18,6 +18,8 @@ int main(void)
 	printf("%d chars\n", count);
 	count = _printf("Percent:[%%]\n");
 	printf("%d chars\n", count);
+	count =_printf("Nbr-> %d\n", -42);
+	printf("%d chars\n", count);
 
 	return (0);
 }
