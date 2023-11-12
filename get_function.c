@@ -11,7 +11,7 @@ int (*get_function(const char *specifier))(va_list)
 {
 	int i = 0;
 
-	type_t ops[] = {
+	match ops[] = {
 		{"s", print_string},
 		{"c", print_char},
 		{"d", print_digit},

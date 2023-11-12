@@ -13,19 +13,21 @@
  * @f: The function associated.
  */
 
-typedef struct type
+typedef struct format
 {
 	char *specifier;
 	int (*f)(va_list); 
-} type_t;
+} match;
 
 int _putchar(char c);
+int print_char(va_list list);
+int _strlen(char *str);
+int _strlenc(const char *str);
+int print_37(void);
+int print_string(va_list list);
 int print_numbers(unsigned int num);
 int count_numbers(unsigned int num);
-int print_char(va_list list);
-int print_string(va_list list);
 int print_digit(va_list list);
-
 int (*get_function(const char *specifier))(va_list);
 
 int _printf(const char *format, ...);

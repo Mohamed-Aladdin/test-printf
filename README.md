@@ -1,1 +1,1 @@
-This is ALX's low-level programming course part of the software engineering program
+This is alx's printf project's repo.
